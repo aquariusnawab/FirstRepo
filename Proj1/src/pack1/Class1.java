@@ -14,6 +14,7 @@ public class Class1 {
 			w.get("https://google.com");
 			Thread.sleep(3000);
 			w.quit();
+			System.out.println("git");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
