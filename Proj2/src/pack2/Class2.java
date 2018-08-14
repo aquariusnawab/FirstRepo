@@ -11,6 +11,8 @@ public class Class2 {
 	{
 		System.out.println("second project123456");
 		System.out.println("naseer");
+		System.out.println("naseer");
+		
 	}
 
 }
