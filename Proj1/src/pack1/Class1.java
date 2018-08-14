@@ -15,6 +15,7 @@ public class Class1 {
 			Thread.sleep(3000);
 			w.quit();
 			System.out.println("git");
+			System.out.println("git");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
