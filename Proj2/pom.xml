@@ -1,0 +1,154 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.Proj2</groupId>
+	<artifactId>Proj2</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Proj2 Craft</name>
+	<description>Maven For Craft
+Maven For Craft</description>
+
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.1.1</version>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>allocator.Allocator</mainClass>
+							<arguments>
+								<argument>myArg1</argument>
+								<argument>myArg2</argument>
+							</arguments>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.13.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cognizant</groupId>
+			<artifactId>framework.core</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/supportlibraries/Framework_Core.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cognizant</groupId>
+			<artifactId>framework.ReportThemeFactory.Theme</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/supportlibraries/Framework_Reporting.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cognizant</groupId>
+			<artifactId>framework.datatable</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/supportlibraries/Framework_DataTable.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cognizant</groupId>
+			<artifactId>framework.selenium</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/supportlibraries/Framework_Selenium.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cognizant</groupId>
+			<artifactId>framework.utilities</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/supportlibraries/Framework_Utilities.jar</systemPath>
+		</dependency>
+
+		<!-- <dependency> <groupId>org.apache.poi</groupId> <artifactId>poi</artifactId> 
+			<version>3.17</version> </dependency> -->
+
+		<dependency>
+			<groupId>com.cognizant</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}\src\supportlibraries\poi-3.10.1\dom4j-1.6.1.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cognizant</groupId>
+			<artifactId>poi</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}\src\supportlibraries\poi-3.10.1\poi-3.10.1-20140818.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cognizant</groupId>
+			<artifactId>poi.ooxml</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}\src\supportlibraries\poi-3.10.1\poi-ooxml-3.10.1-20140818.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cognizant</groupId>
+			<artifactId>poi.ooxml.schemas</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}\src\supportlibraries\poi-3.10.1\poi-ooxml-schemas-3.10.1-20140818.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cognizant</groupId>
+			<artifactId>stax</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}\src\supportlibraries\poi-3.10.1\stax-api-1.0.1.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cognizant</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}\src\supportlibraries\poi-3.10.1\xmlbeans-2.6.0.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.10</version>
+			<!-- <scope>test</scope> -->
+		</dependency>
+
+
+	</dependencies>
+</project>
