@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21" started-at="2018-08-25T15:32:48Z" finished-at="2018-08-25T15:32:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21" started-at="2018-08-25T15:32:48Z" finished-at="2018-08-25T15:32:48Z">
+      <class name="PackageOne.ClassOne">
+        <test-method status="PASS" signature="valTestNG()[pri:0, instance:PackageOne.ClassOne@3551a94]" name="valTestNG" duration-ms="9" started-at="2018-08-25T21:02:48Z" finished-at="2018-08-25T21:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valTestNG -->
+      </class> <!-- PackageOne.ClassOne -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
