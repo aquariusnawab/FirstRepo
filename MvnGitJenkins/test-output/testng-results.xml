@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59" started-at="2018-08-25T19:20:10Z" finished-at="2018-08-25T19:20:10Z">
+  <suite name="Default suite" duration-ms="116" started-at="2018-08-25T19:23:26Z" finished-at="2018-08-25T19:23:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59" started-at="2018-08-25T19:20:10Z" finished-at="2018-08-25T19:20:10Z">
+    <test name="Default test" duration-ms="116" started-at="2018-08-25T19:23:26Z" finished-at="2018-08-25T19:23:26Z">
       <class name="PackageOne.ClassOne">
-        <test-method status="PASS" signature="valTestNG()[pri:0, instance:PackageOne.ClassOne@1bce4f0a]" name="valTestNG" duration-ms="20" started-at="2018-08-26T00:50:10Z" finished-at="2018-08-26T00:50:10Z">
+        <test-method status="PASS" signature="valTestNG()[pri:0, instance:PackageOne.ClassOne@1bce4f0a]" name="valTestNG" duration-ms="53" started-at="2018-08-26T00:53:26Z" finished-at="2018-08-26T00:53:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valTestNG -->

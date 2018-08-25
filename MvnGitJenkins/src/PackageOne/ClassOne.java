@@ -12,7 +12,7 @@ public class ClassOne {
 		try {
 			System.out.println("Executed Mvn Git Jenkins");
 
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
 			WebDriver w = new ChromeDriver();
 			w.get("https://www.youtube.com/watch?v=dZ0fwJojhrs");
@@ -28,6 +28,7 @@ public class ClassOne {
 	public void valTestNG()
 	{
 		System.out.println("TestNG Test Executed");
+		System.out.println(System.getProperty("user.dir")+"\\chromedriver.exe");
 	}
 
 }
