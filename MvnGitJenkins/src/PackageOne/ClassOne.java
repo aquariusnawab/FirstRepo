@@ -12,7 +12,11 @@ public class ClassOne {
 		try {
 			System.out.println("Executed Mvn Git Jenkins");
 
-			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+			try {
+				System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+			}catch(Exception e) {
+				System.setProperty("webdriver.chrome.driver", "MvnGitJenkins\\chromedriver.exe");
+			}
 
 			WebDriver w = new ChromeDriver();
 			w.get("https://www.youtube.com/watch?v=dZ0fwJojhrs");
